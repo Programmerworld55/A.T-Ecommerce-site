@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (checkoutBtn) {
         checkoutBtn.addEventListener('click', function() {
             alert('Proceeding to checkout...');
-            window.location.href = '/html_files/checkout.html'; // Redirect to the checkout page without clearing the cart
+            window.location.href = 'checkout.html'; // Redirect to the checkout page without clearing the cart
         });
     }
 });
